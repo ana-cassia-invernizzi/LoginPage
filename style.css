@@ -46,6 +46,10 @@ body {
   margin: 15px 0 10px;
 }
 
+.container a:hover {
+  color: #512da8;
+}
+
 .container button {
   background-color: #512da8;
   color: #fff;
@@ -211,4 +215,8 @@ body {
 
 .container.active .toggle-right {
   transform: translateX(200%);
+}
+
+button:hover {
+  opacity: 0.8;
 }
